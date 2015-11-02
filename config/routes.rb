@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'static_pages/thanks'
+
   resources :forms
   root 'forms#new'
   # The priority is based upon order of creation: first created -> highest priority.
